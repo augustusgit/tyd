@@ -12,4 +12,11 @@
     <string name="not_your_account">Not your account?</string>
     <string name="secret_pin">Enter your secret pin</string>
     <string name="login">Login</string>
+    <string name="enter_pin_below">Enter your account pin below</string>
+    <string name="aword">Enter your favorite A word</string>
+    <string name="bword">Enter your favorite B word</string>
+    <string name="cword">Enter your favorite C word</string>
+    <string name="dword">Enter your favorite D word</string>
+    <string name="eword">Enter your favorite E word</string>
+    <string name="fword">Enter your favorite F word</string>
 </resources>
