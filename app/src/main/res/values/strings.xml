@@ -12,6 +12,8 @@
     <string name="not_your_account">Not your account?</string>
     <string name="secret_pin">Enter your secret pin</string>
     <string name="login">Login</string>
+    <string name="next">Next</string>
+    <string name="pick_letter_word">Pick at least one letter and enter your\n favorite word starting with each letter</string>
     <string name="enter_pin_below">Enter your account pin below</string>
     <string name="aword">Enter your favorite A word</string>
     <string name="bword">Enter your favorite B word</string>
