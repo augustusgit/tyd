@@ -84,6 +84,7 @@
             android:background="@drawable/button_radius"
             android:textColor="#ffffff"
             android:onClick="goCreateWord"
+            android:drawablePadding="8dp"
             android:foreground="@drawable/ic_baseline_arrow_forward_ios_24"
             android:textSize="15sp" />
 

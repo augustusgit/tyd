@@ -26,6 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onClick"
+            android:layout_marginLeft="10dp"
             android:outlineAmbientShadowColor="@color/whiteAccent"
             android:src="@drawable/ic_baseline_arrow_back_ios_white_24"></ImageView>
 
@@ -59,14 +60,194 @@
             android:gravity="center"
             android:layout_marginTop="30dp"/>
 
-        <androidx.recyclerview.widget.RecyclerView
+
+
+
+        <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/recyclerView"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/awordbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="A"
+                    android:textColor="@color/whiteAccent"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="aWordClick"
+                    android:background="@drawable/button_circle"/>
+
+                <Button
+                    android:id="@+id/bwordbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="B"
+                    android:textColor="@color/whiteAccent"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="bWordClick"
+                    android:background="@drawable/button_circle"/>
+
+                <Button
+                    android:id="@+id/cwordbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="C"
+                    android:textColor="@color/whiteAccent"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="cWordClick"
+                    android:background="@drawable/button_circle"/>
+
+                <Button
+                    android:id="@+id/dwordbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="D"
+                    android:textColor="@color/whiteAccent"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="dWordClick"
+                    android:background="@drawable/button_circle"/>
+
+                <Button
+                    android:id="@+id/ewordbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="E"
+                    android:textColor="@color/whiteAccent"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="eWordClick"
+                    android:background="@drawable/button_circle"/>
+
+                <Button
+                    android:id="@+id/fwordbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="F"
+                    android:textColor="@color/whiteAccent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/button_circle"/>
+
+                <Button
+                    android:id="@+id/gwordbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="G"
+                    android:textColor="@color/whiteAccent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/button_circle"/>
 
 
-        </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/aWordbxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/aword"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@color/whiteAccent"
+                android:drawableStart="@drawable/a"
+                android:drawablePadding="8dp"
+                android:visibility="invisible"
+                android:drawableEnd="@drawable/ic_baseline_close_24"
+                />
+
+            <EditText
+                android:id="@+id/bWordbxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/bword"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/whiteAccent"
+                android:drawableStart="@drawable/b"
+                android:drawablePadding="8dp"
+                android:visibility="invisible"
+                android:drawableEnd="@drawable/ic_baseline_close_24"
+                />
+
+            <EditText
+                android:id="@+id/cWordbxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/cword"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/whiteAccent"
+                android:drawableStart="@drawable/c"
+                android:drawablePadding="8dp"
+                android:visibility="invisible"
+                android:drawableEnd="@drawable/ic_baseline_close_24"
+                />
+
+            <EditText
+                android:id="@+id/dWordbxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/dword"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/whiteAccent"
+                android:drawableStart="@drawable/d"
+                android:drawablePadding="8dp"
+                android:visibility="invisible"
+                android:drawableEnd="@drawable/ic_baseline_close_24"
+                />
+
+            <EditText
+                android:id="@+id/eWordbxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/eword"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/whiteAccent"
+                android:drawableStart="@drawable/letterword"
+                android:drawablePadding="8dp"
+                android:visibility="invisible"
+                android:drawableEnd="@drawable/ic_baseline_close_24"
+                />
+        </LinearLayout>
+
 
 
     </LinearLayout>
