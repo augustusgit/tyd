@@ -159,7 +159,7 @@
             android:layout_marginTop="30dp">
 
             <EditText
-                android:id="@+id/aWordbxt"
+                android:id="@+id/awordbxt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="@string/aword"
@@ -176,7 +176,7 @@
                 />
 
             <EditText
-                android:id="@+id/bWordbxt"
+                android:id="@+id/bwordbxt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="@string/bword"
@@ -194,7 +194,7 @@
                 />
 
             <EditText
-                android:id="@+id/cWordbxt"
+                android:id="@+id/cwordbxt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="@string/cword"
@@ -212,7 +212,7 @@
                 />
 
             <EditText
-                android:id="@+id/dWordbxt"
+                android:id="@+id/dwordbxt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="@string/dword"
@@ -230,7 +230,7 @@
                 />
 
             <EditText
-                android:id="@+id/eWordbxt"
+                android:id="@+id/ewordbxt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="@string/eword"
