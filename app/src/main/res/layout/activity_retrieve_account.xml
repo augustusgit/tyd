@@ -62,6 +62,7 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/pin"
             android:layout_width="160dp"
             android:background="@color/button_color"
             android:layout_height="50dp"
@@ -101,6 +102,7 @@
             android:layout_marginTop="30dp">
 
             <EditText
+                android:id="@+id/checkword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="@string/eword"
@@ -109,10 +111,12 @@
                 android:textSize="15sp"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
+                android:visibility="invisible"
                 android:background="@color/whiteAccent"
                 android:drawableStart="@drawable/letterword"
                 android:drawableEnd="@drawable/ic_baseline_close_24"
                 />
+
         </LinearLayout>
 
 

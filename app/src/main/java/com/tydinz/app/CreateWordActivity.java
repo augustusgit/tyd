@@ -22,35 +22,32 @@ public class CreateWordActivity extends AppCompatActivity {
     }
 
 
-
-
-
-//    public void onClick(View v) {
-//        super.onBackPressed(); // or super.finish();
-//    }
+    public void onClick(View v) {
+        super.onBackPressed(); // or super.finish();
+    }
 
     public void aWordClick(View view) {
         final EditText aWordTxt = findViewById(R.id.awordbxt);
-        aWordTxt.setVisibility(View.VISIBLE);
+        aWordTxt.setVisibility( aWordTxt.getVisibility() ==  View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
     }
 
     public void bWordClick(View view) {
         final EditText bWordTxt = findViewById(R.id.bwordbxt);
-        bWordTxt.setVisibility(View.VISIBLE);
+        bWordTxt.setVisibility(bWordTxt.getVisibility() ==  View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
     }
 
     public void cWordClick(View view) {
         final EditText cWordTxt = findViewById(R.id.cwordbxt);
-        cWordTxt.setVisibility(View.VISIBLE);
+        cWordTxt.setVisibility(cWordTxt.getVisibility() ==  View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
     }
 
     public void dWordClick(View view) {
         final EditText dWordTxt = findViewById(R.id.dwordbxt);
-        dWordTxt.setVisibility(View.VISIBLE);
+        dWordTxt.setVisibility(dWordTxt.getVisibility() ==  View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
     }
 
     public void eWordClick(View view) {
         final EditText eWordTxt = findViewById(R.id.ewordbxt);
-        eWordTxt.setVisibility(View.VISIBLE);
+        eWordTxt.setVisibility(eWordTxt.getVisibility() ==  View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
     }
 }

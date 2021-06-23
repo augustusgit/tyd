@@ -137,6 +137,7 @@
             android:layout_marginTop="150dp">
 
             <TextView
+                android:id="@+id/inAs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/signed_in_as"

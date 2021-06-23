@@ -8,7 +8,7 @@
     <string name="having_trouble">Having Trouble? Contact Us</string>
     <string name="get_in">Get In</string>
     <string name="box_head">©  2021 BoxHead Technology Ltd</string>
-    <string name="signed_in_as">You will be signed in as T00001. Not\n your account?</string>
+    <string name="signed_in_as">You will be signed in as %1$d . Not\n your account?</string>
     <string name="not_your_account">Not your account?</string>
     <string name="secret_pin">Enter your secret pin</string>
     <string name="login">Login</string>
