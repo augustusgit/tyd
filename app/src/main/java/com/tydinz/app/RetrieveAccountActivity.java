@@ -39,6 +39,7 @@ public class RetrieveAccountActivity extends AppCompatActivity {
                            //create a new pin or navigate to the password page
                            Intent intent = new Intent(getApplicationContext(), VerificationScreenActivity.class);
                            intent.putExtra("pin", userpin);
+                           intent.putExtra("exist", false);
                            startActivity(intent);
                        }else {
                            //validate your saved ewords

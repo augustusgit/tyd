@@ -32,10 +32,11 @@
             </ImageView>
 
             <TextView
+                android:id="@+id/logId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/login"
-                android:layout_marginLeft="140dp"
+                android:layout_marginLeft="110dp"
                 android:textColor="@color/whiteAccent"
                 android:textSize="20dp"
                 android:textStyle="bold"
@@ -44,6 +45,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/secret_i"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/secret_pin"
@@ -53,6 +55,7 @@
             android:layout_marginTop="30dp"/>
 
         <LinearLayout
+            android:id="@+id/codeLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -61,11 +64,13 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/digit1"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:background="@color/transparent_white_clr"
                 android:layout_height="60dp"
                 android:focusable="true"
+                android:imeOptions="actionDone"
                 android:inputType="numberPassword"
                 android:maxLength="1"
                 android:maxLines="1"
@@ -76,27 +81,13 @@
                 />
 
             <EditText
+                android:id="@+id/digit2"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:background="@color/transparent_white_clr"
                 android:layout_height="60dp"
                 android:focusable="true"
-                android:inputType="numberPassword"
-                android:maxLength="1"
-                android:maxLines="1"
-                android:textSize="30dp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:textColor="@color/whiteAccent"
-                />
-
-            <EditText
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:background="@color/transparent_white_clr"
-                android:layout_height="60dp"
-                android:focusable="true"
+                android:imeOptions="actionDone"
                 android:inputType="numberPassword"
                 android:maxLength="1"
                 android:maxLines="1"
@@ -108,11 +99,31 @@
                 />
 
             <EditText
+                android:id="@+id/digit3"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:background="@color/transparent_white_clr"
                 android:layout_height="60dp"
                 android:focusable="true"
+                android:imeOptions="actionDone"
+                android:inputType="numberPassword"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/whiteAccent"
+                />
+
+            <EditText
+                android:id="@+id/digit4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:background="@color/transparent_white_clr"
+                android:layout_height="60dp"
+                android:focusable="true"
+                android:imeOptions="actionDone"
                 android:inputType="numberPassword"
                 android:maxLength="1"
                 android:maxLines="1"
@@ -134,7 +145,7 @@
             android:background="@color/dark_blue"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:layout_marginTop="150dp">
+            android:layout_marginTop="130dp">
 
             <TextView
                 android:id="@+id/inAs"
